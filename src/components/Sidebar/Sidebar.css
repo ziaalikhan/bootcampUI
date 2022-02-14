@@ -1,0 +1,160 @@
+.logo_Container {
+  /* text-align: center; */
+  height: 270px;
+  background-color: #4873db;
+  /* border-right:  1px solid black; */
+}
+
+.logo_Container > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: 30%;
+}
+
+.profile_Card {
+  margin: 0% auto;
+  width: 90%;
+  margin-top: 20px;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 0 5px black;
+  padding-bottom: 15px;
+}
+
+.profile_background_Image {
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  background-image: url("https://res.cloudinary.com/drg7uoyge/image/upload/v1633376295/online%20store/images_i0msbi.jpg");
+  width: 100%;
+  height: 130px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.profile_Image {
+  padding-top: 105px;
+}
+
+.avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  vertical-align: middle;
+  width: 20%;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.profile_Name {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.profile_Name > h1 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #2154cc;
+}
+
+.profile_Country {
+  text-align: center;
+  padding-bottom: 10px;
+  color: #2154cc;
+  border-bottom: 1px solid black;
+}
+
+.profile_Posts {
+  margin-top: 5px;
+  display: flex;
+  padding: 0 15px 0 15px;
+  justify-content: space-evenly;
+}
+.profile_Posts > p {
+  font-size: 14px;
+  color: #2154cc;
+}
+
+.profile_Ideas {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  font-size: 14px;
+  color: #2154cc;
+}
+
+
+.darkMode_Switch {
+    margin: 0% auto;
+    width: 60%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Switch Toogle */
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 12px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }

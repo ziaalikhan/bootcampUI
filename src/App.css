@@ -1,0 +1,16 @@
+.app {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sideBar {
+  width: 400px;
+  height: 100vh;
+  overflow: auto;
+  background-color: #cfddff;
+  /* border-right:  1px solid black; */
+}
+
+.home {
+  width: 100%;
+}

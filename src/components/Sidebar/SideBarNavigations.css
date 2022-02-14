@@ -1,0 +1,29 @@
+.sideBarNav {
+  margin-top: 10%;
+}
+
+.nav_Container {
+  margin: 0% auto;
+  width: 90%;
+  height: 50px;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 5px;
+  background-color: #91b1ff;
+}
+
+.side_navigations {
+  display: flex;
+  padding-top: 7px;
+}
+
+.navigation_Page_name {
+  margin-left: 20px;
+  font-size: 17px;
+}
+
+.icons {
+  font-size: 25px !important;
+  margin-left: 5px !important;
+  color: #2154cc !important;
+}

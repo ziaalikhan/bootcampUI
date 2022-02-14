@@ -1,0 +1,102 @@
+
+
+.home_Page {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+
+.content {
+    width: 70%;
+    padding: 10px;
+}
+
+.home_banner {
+    background-image: url("../../images/banner.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.banner_Description {
+    margin-left: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.banner_Desc {
+    margin-top: 5px;
+}
+
+.logo {
+    display: flex;
+}
+.logo > img {
+    width: 70px;
+    height: 70px;
+}
+
+.banner_Heading {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.explore_Heading > h1 {
+    font-size: 33px;
+    font-weight: 500;
+}
+.explore_Heading > h1 > span {
+    font-size: 33px;
+    font-weight: bold;
+    color: #d47604;
+}
+
+.banner_Text {
+    color: white;
+}
+
+.bookNow_Btn  {
+    margin-top: 7px;
+
+}
+.bookNow_Btn > button {
+    width: 140px;
+    height: 28px;
+    background-color: #f7a848;
+    color: blue;
+    font-weight: 500;
+}
+
+.contact_Us {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    /* background-color: blue; */
+}
+
+ .contact_Us > div > p {
+
+    font-size: 12px;
+    color: white;
+} 
+
+.visit_Our_website {
+    font-size: 12px;
+    color: white;
+    font-weight: 500;
+}
+
+/* .contact_Query {
+
+} */
+
+
+@media screen and (max-width: 1100px) {
+    .content {
+      width: 100%;
+    }
+  }
+  
